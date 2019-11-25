@@ -1,0 +1,62 @@
+
+.brd {
+    border: 2px solid black;
+}
+table, th, tr, td {
+     border: 1px solid #000000;
+     min-width: 50px;
+ }
+th, tr, td {
+    padding: 5px;
+    horiz-align: center;
+}
+.centerAlign{
+    text-align: center;
+}
+.leftAlign{
+    text-align: left;
+}
+.verticalAlignTop{
+    padding-top: 20px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.rigthAlign{
+    text-align: right;
+}
+.CollapseTable{
+    border-collapse: collapse;
+}
+table#SixTable{
+    background-color: burlywood;
+}
+table#SixTable,table#SixTable th,table#SixTable tr,table#SixTable td{
+    border-collapse: collapse;
+    border: 3px solid darkred;
+    text-align:left;
+    vertical-align: top;
+    font-family: Arial;
+}
+table#SevenTable{
+    background-color: #9fd69f;
+}
+table#SevenTable,table#SevenTable th,table#SevenTable tr,table#SevenTable td{
+    border-collapse: collapse;
+    border: 3px solid #7dc57c;
+    font-family: Arial;
+}
+.GreenBack{
+    background-color: #147800;
+    color: #b9ff00;
+}
+.YellowBack{
+    color: #147800;
+    background-color: #b9ff00;
+    text-align: center;
+    vertical-align: center;
+}
+table#eightTable, table#eightTable th,table#eightTable tr,table#eightTable td{
+    border-collapse: collapse;
+    border: 3px solid #7a001a;
+    font-family: Arial;
+}
