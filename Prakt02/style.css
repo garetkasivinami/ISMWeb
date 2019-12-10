@@ -81,9 +81,11 @@ main {
 }
 .twoFiveTProcent {
     width: 25%;
+    min-width: 200px;
 }
 .centralElement {
     padding: 0px 3% 0px 3%;
+    max-width: 300px;
 }
 #seach{
     background: #d8d8d8;
